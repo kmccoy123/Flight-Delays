@@ -1,8 +1,8 @@
-# Aircraft Arrival Delays Throughout The United States
+# Aircraft On Time Arrivals and Delays Throughout The United States
 
 ## Introduction
 
-With this final project, I will be examining the different reasons that a flight might be delayed and how often this happens throughout the United States.
+With this project, we well be analyzing data in regards to the On-Time Arrivals and Delays at Airports across the United States.
 
 ## Data Dictionary
 
@@ -62,7 +62,19 @@ With this final project, I will be examining the different reasons that a flight
 # Things to do
     * Change year and month to date-time format
     * Combine year and month into one column
-    * Display # of delayed flights per carrier\
+    * Remove rows with missing values (no arrival flights)
+    * Display # of delayed flights per carrier
     * Find carrier with most delays as a percentage of total flights
     * Find top 5 airports with most delays
     * Find top 5 carriers with least amount of delays
+    
+Notes:
+
+Think about what kind of questions you are trying to answer
+
+
+
+Questions:
+- Should year/date be the index?
+- error code when switching to date-time format
+- replace first row with new names
