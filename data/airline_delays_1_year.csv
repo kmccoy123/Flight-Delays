@@ -1,4 +1,4 @@
-date,carrier,carrier_name,airport,airport_name,arr_flights,arr_del15,carrier_ct,weather_ct,nas_ct,security_ct,late_aircraft_ct,arr_cancelled,arr_diverted,arr_delay,carrier_delay,weather_delay,nas_delay,security_delay,late_aircraft_delay
+month,carrier,carrier_name,airport,airport_name,arr_flights,arr_del15,carrier_ct,weather_ct,nas_ct,security_ct,late_aircraft_ct,arr_cancelled,arr_diverted,arr_delay,carrier_delay,weather_delay,nas_delay,security_delay,late_aircraft_delay
 2021-1,9E,Endeavor Air Inc.,ABE,"Allentown/Bethlehem/Easton, PA: Lehigh Valley International",110,1,0.63,0,0.38,0,0,2,0,32,20,0,12,0,0
 2021-1,9E,Endeavor Air Inc.,ABY,"Albany, GA: Southwest Georgia Regional",87,9,3.53,0.89,3.58,0,1,0,1,452,174,32,208,0,38
 2021-1,9E,Endeavor Air Inc.,AEX,"Alexandria, LA: Alexandria International",79,7,3.87,1,2.13,0,0,0,0,969,351,541,77,0,0
