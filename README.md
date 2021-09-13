@@ -1,8 +1,8 @@
-# Aircraft On Time Arrivals and Delays Throughout The United States
+# Airline On Time Arrivals and Delays Throughout The United States
 
 ## Introduction
 
-With this project, we well be analyzing data in regards to the On-Time Arrivals and Delays at Airports across the United States.
+With this project, we well be analyzing data in regards to the On-Time Arrivals and Delays at for Airlines located in the United States.
 
 ## Data Dictionary
 
@@ -29,6 +29,7 @@ With this project, we well be analyzing data in regards to the On-Time Arrivals 
 | nas_delay | Number of delayed minutes due to nationa air systems issues |
 | security_delay | Number of delayed minutes due to security issues |
 | late_aircraft_delay | Number of delayed minutes due to earlier late arrival of aircraft |
+
 * When multiple causes are assigned to one delayed flight, each cause is prorated based on delayed minutes it is responsible for. The displayed numbers are rounded and may not add up to the total. (Distinguished with _ct)
 
 
@@ -64,8 +65,8 @@ With this project, we well be analyzing data in regards to the On-Time Arrivals 
 # Things to do
     * Change year and month to date-time format - done
     * Combine year and month into one column - done
-    * Remove rows with missing values (no arrival flights)
-    * Display # of delayed flights per carrier
+    * Remove rows with missing values (no arrival flights) - done
+    * Display # of delayed flights per carrier 
     * Find carrier with most delays as a percentage of total flights
     * Find top 5 airports with most delays
     * Find top 5 carriers with least amount of delays
