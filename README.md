@@ -29,6 +29,7 @@ With this project, we well be analyzing data in regards to the On-Time Arrivals 
 | nas_delay | Number of delayed minutes due to nationa air systems issues |
 | security_delay | Number of delayed minutes due to security issues |
 | late_aircraft_delay | Number of delayed minutes due to earlier late arrival of aircraft |
+* When multiple causes are assigned to one delayed flight, each cause is prorated based on delayed minutes it is responsible for. The displayed numbers are rounded and may not add up to the total. (Distinguished with _ct)
 
 
 
