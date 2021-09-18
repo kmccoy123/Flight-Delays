@@ -2,7 +2,7 @@
 
 ## Introduction
 
-With this project, we well be analyzing data in regards to the On-Time Arrivals and Delays at for Airlines located in the United States.
+With this project, we well be analyzing data in regards to the On-Time Arrivals and Delays for Airlines located in the United States.
 
 ## Data Dictionary
 
