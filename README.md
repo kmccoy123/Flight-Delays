@@ -32,7 +32,28 @@ With this project, we well be analyzing data in regards to the On-Time Arrivals 
 
 * When multiple causes are assigned to one delayed flight, each cause is prorated based on delayed minutes it is responsible for. The displayed numbers are rounded and may not add up to the total. (Distinguished with _ct)
 
+## Carriers
 
+| Field | Description |
+| :--- | :---|
+| 9E | Endeavor Air Inc. |
+| AA | American Airlines |
+| AS | Alaska Airlines Inc. |
+| B6 | JetBlue Airways |
+| DL | Delta Airlines Inc. |
+| EV | ExpressJet Airlines LLC |
+| F9 | Frontier Airlines Inc. |
+| G4 | Allegiant Air |
+| HA | Hawaiin Airlines Inc. |
+| MQ | Envoy Air |
+| NK | Spirit Airlines |
+| OH | PSA Airlines Inc. |
+| OO | SkyWest Airlines Inc. |
+| QX | Horizon Air |
+| UA | United Air Lines Inc. |
+| WN | Southwest Airlines Co. |
+| YV | Mesa Airlines Inc. |
+| YX | Republic Airline |
 
 
 * Start *framing* the problem -- This is Step 1 of the Data Science Workflow
