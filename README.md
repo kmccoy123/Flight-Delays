@@ -4,6 +4,10 @@
 
 With this project, we well be analyzing data in regards to the On-Time Arrivals and Delays for Airlines located in the United States.
 
+## Project Description
+
+For this project I will be using a dataset with around 40,000 lines of data that represent the flight arrival delays for 18 carriers in the United States.  Each row has data regarding delays in a carrier-airport pair for the specific month.  The time table is from July 2020 to June 2021 with data provided by the Bureau of Transportation Statistics. 
+
 ## Data Dictionary
 
 | Field | Description |
@@ -56,48 +60,8 @@ With this project, we well be analyzing data in regards to the On-Time Arrivals 
 | YX | Republic Airline |
 
 
-* Start *framing* the problem -- This is Step 1 of the Data Science Workflow
-   * Make a list of **what you know**
-       * Multiple ways a flight can be delayed
-       * Each airport can have different reasons for having delays
-       * Each carrier has different reasons for delays
-   * Make a list of **what you don't know**
-       * What kind of weather caused delays
-       * What exactly was the NAS reasons for delays
-       
-   * Make a list of possible problem statements
-       * Are delays happening more at smaller airports or larger airports?
-       * Is it more likely that one carrier will be delayed compared to another similar carrier?
-       * How often was weather a factor in a delay?
-       * What airlines have the highest/lowest percentage of delays?
-
-
-
 ## Important Links
 
 * [Final Report Notebook](report.ipynb)
 * [EDA Notebook](eda.ipynb)
-* [Link 1](https://www.transtats.bts.gov/OT_Delay/ot_delaycause1.asp?qv52ynB=qn6n&20=E) - Source data
-
-
-
-# Things to do
-    * Change year and month to date-time format - done
-    * Combine year and month into one column - done
-    * Remove rows with missing values (no arrival flights) - done
-    * Convert minutes delayed into integer
-    * Display # of delayed flights per carrier 
-    * Find carrier with most delays as a percentage of total flights
-    * Find top 5 airports with most delays
-    * Find top 5 carriers with least amount of delays
-    * Find delays per month
-    
-Notes:
-
-Think about what kind of questions you are trying to answer
-
-
-
-Questions:
-- Should year/date be the index?
-- replace first row with new names
+* [Airline Data for Project](https://www.transtats.bts.gov/OT_Delay/ot_delaycause1.asp?qv52ynB=qn6n&20=E) - Source data
