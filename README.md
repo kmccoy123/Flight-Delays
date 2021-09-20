@@ -8,6 +8,13 @@ With this project, we well be analyzing data in regards to the On-Time Arrivals 
 
 For this project I will be using a dataset with around 40,000 lines of data that represent the flight arrival delays for 18 carriers in the United States.  Each row has data regarding delays in a carrier-airport pair for the specific month.  The time table is from July 2020 to June 2021 with data provided by the Bureau of Transportation Statistics. 
 
+Areas of Interest:
+
+* Which airports have the most arrivals? Most delays?
+* Which carriers have the most delays?
+* Which carriers have the highest percentage of cancelled flights?
+
+
 ## Data Dictionary
 
 | Field | Description |
